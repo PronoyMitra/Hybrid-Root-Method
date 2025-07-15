@@ -7,7 +7,7 @@ getcontext().prec = 200
 NEWTON_STEPS = 200
 TARGET_DECIMALS = 120
 
-# ---------- Your Custom x₀ Formula ----------
+# ---------- My Custom Formula ----------
 def custom_initial_guess(a: Decimal) -> Decimal:
     sqrt_floor = int(a.sqrt())
     b = Decimal(sqrt_floor ** 2) or Decimal(1)
