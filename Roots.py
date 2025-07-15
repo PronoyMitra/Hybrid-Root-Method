@@ -5,7 +5,7 @@ import time
 # ---------- Precision Settings ----------
 getcontext().prec = 200
 NEWTON_STEPS = 200
-TARGET_DECIMALS = 120
+TARGET_DECIMALS = 200
 
 # ---------- My Custom Formula ----------
 def custom_initial_guess(a: Decimal) -> Decimal:
